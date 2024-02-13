@@ -105,3 +105,15 @@
 .success-message{
     padding-top: 25px;
 }
+
+
+footer{
+    padding: 100px 0px 0px 0px;
+}
+.footer-content p{
+    color: grey;
+}
+
+.anchored-link{
+    text-decoration: none;
+}
