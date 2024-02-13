@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Tyrone's Color picker</title>
+</head>
+<body>
+
+
+
+<div align="center">
+	<div class="main-div">
+		
+		<div class="title-div">
+			<div>
+				<span class="main-title">COLOR PICKER FOR DEVS</span>
+			</div>
+		</div>
+		
+		
+
+		<table>
+			<tr>
+				<td colspan="2" style="padding-bottom: 30px;">
+					<select style="width: 100%" class="combo" onchange="colorchanged()" id="comb">
+						<option value="1">Binary color code</option>
+						<option value="2">Hexa color code</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="color" style="height: 0px;width: 0px;" id="color" name="" class="col"></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="output" name="" readonly=""  value="#030303" class="textfield"></td>
+				<td><button type="submit" id="copy" class="copy">Copy</button></td>
+
+			</tr>
+			<tr class="t-row">
+				<td colspan="2" align="center"><label for="color" class="label" id="cll">Select color</label></td>
+			</tr>
+		</table>
+
+		<div class="success-message">
+			<div class="copy-title">
+				<div>
+					<span class="copied" id="copied" style="display: none;">Color code copied <span class="text-green">&#10004;</span></span>
+				</div>
+			</div>
+		</div>
+
+
+		<div>
+			<div class="for-display">
+				<div>
+					<div>
+						<div style="margin-bottom: 10px;">
+							<span class="display-color">Display color</span>
+						</div>
+					</div>
+					<div id="display" class="display">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
+<div id="tmodal" align="center" style="display: none;">
+	<div class="tmodal-body">
+		<div>
+			<div class="tmodal-header">
+
+			</div>
+			<div class="tmodal-content">
+
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+<script src="app.js"></script>
+

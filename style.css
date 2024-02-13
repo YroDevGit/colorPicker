@@ -1,0 +1,107 @@
+.label{
+    border: solid 1px #996c6c;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #996c6c;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    user-select: none;
+}
+.label:hover{
+    background-color: orange;
+}
+.select{
+    margin-top: 10px;
+}
+.copied{
+    color: blue;
+    font-family: cursive;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.text-green{
+    color: green;
+}
+.copy{
+    background-color: #32cbcd;
+    border: solid 1px #32cbcd;
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.copy:hover{
+    background-color: orange;
+}
+.main-div{
+    margin-top: 100px;
+}
+.textfield{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px #cfcece;
+    text-align: center;
+    outline: none;
+}
+.t-row td{
+    padding-top: 15px;
+}
+.copy-title{
+    margin-bottom: 20px;
+}
+.display{
+    height: 200px;
+    width: 200px;
+    background-color: #030303;
+    border-radius: 10px;
+}
+.for-display{
+    margin-top: 50px;
+}
+*{
+    font-family: monospace;
+}
+.display-color{
+    color: blue;
+    font-size: 18px;
+}
+.combo{
+    border: solid 1px #cfcece;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+#tmodal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.5);
+    padding-top: 200px;
+}
+
+.tmodal-body{
+    display: inline-block;
+    background-color:white;
+    border-radius: 5px;
+    padding: 15px 10px 15px 10px;
+}
+
+.main-title{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#0074cc;
+}
+.title-div{
+    padding: 10px 5px 10px 5px;
+}
+.success-message{
+    padding-top: 25px;
+}
